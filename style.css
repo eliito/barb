@@ -181,7 +181,7 @@ nav ul li a {
 
 .features-desc{
     display: flex;
-    align-items: center;
+    align-items: flex;
     margin-bottom: 40px;
 }
 .feature-icon .fa{
@@ -193,7 +193,7 @@ nav ul li a {
     color: #009688;
     border: 1px solid #009688;
     left: 0;
-
+    
 }
 /***** Section *****/
 /***** End Section *****/
@@ -207,5 +207,13 @@ nav ul li a {
     .banner-btn a {
         display: block;
         margin: 20px auto;
+    }
+}
+@media screen and (max-width: 770px){
+    .title-text h1{
+       font-size: 35px;
+    }
+    .features{
+        flex-basis: 100%;
     }
 }
